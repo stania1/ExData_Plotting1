@@ -40,7 +40,7 @@ data <- data[data$Date == "1/2/2007" | data$Date == "2/2/2007", ]
 
 png(filename="plot4.png")
 
-par(mfrow=c(2, 2), cex = 0.6)
+par(mfrow=c(2, 2), cex = 0.7)
 
 draw_plot1(data)
 draw_plot2(data)
